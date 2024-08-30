@@ -1,1 +1,1 @@
-# ez
+# EZ Coaching
