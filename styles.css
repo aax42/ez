@@ -50,3 +50,71 @@ ul {
   border-top-left-radius: 5rem;
   border-bottom-left-radius: 5rem;
 }
+
+/* About Us Page */
+.h3 {
+  font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 3rem;
+  margin-left: 26rem;
+}
+
+.first-section {
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  margin: 2rem 8rem 2rem 8rem;
+  gap: 2rem;
+}
+
+.first-part,
+.second-part {
+  display: flex;
+  gap: 5rem;
+}
+
+.left-side {
+  font-family: "Lora", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 600;
+  flex-grow: 1;
+  min-width: 200px;
+  text-align: center;
+}
+
+.right-side {
+  flex-grow: 2;
+}
+
+.second-section {
+  display: flex;
+  margin: 2rem 8rem 2rem 8rem;
+  gap: 5rem;
+}
+
+.quote-sec,
+.img-sec {
+  width: 50%;
+}
+
+.quote-sec {
+  font-family: "Lora", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.8rem;
+  font-style: italic;
+  font-weight: 600;
+  padding: 0 2rem 0 0;
+}
+
+blockquote > p {
+  padding: 0 2rem 0 2rem;
+}
+
+.double-quotes {
+  font-size: 5rem;
+  font-weight: 900;
+  font-style: italic;
+}
